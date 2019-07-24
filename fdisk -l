@@ -1,0 +1,69 @@
+ fdisk -l
+Disk /dev/sdc: 894.3 GiB, 960197124096 bytes, 1875385008 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xd755c4a2
+
+Device     Boot   Start        End    Sectors   Size Id Type
+/dev/sdc1          2048    8390655    8388608     4G fd Linux raid autodetect
+/dev/sdc2       8390656    9439231    1048576   512M fd Linux raid autodetect
+/dev/sdc3       9439232 1875382959 1865943728 889.8G fd Linux raid autodetect
+
+
+Disk /dev/sdb: 5.5 TiB, 6001175126016 bytes, 11721045168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0x673b978a
+
+Device     Boot   Start        End    Sectors   Size Id Type
+/dev/sdb1          2048    8390655    8388608     4G fd Linux raid autodetect
+/dev/sdb2       8390656    9439231    1048576   512M fd Linux raid autodetect
+/dev/sdb3       9439232 1875382959 1865943728 889.8G fd Linux raid autodetect
+
+
+Disk /dev/sdd: 5.5 TiB, 6001175126016 bytes, 11721045168 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0xfe8e29d7
+
+Device     Boot   Start        End    Sectors   Size Id Type
+/dev/sdd1          2048    8390655    8388608     4G fd Linux raid autodetect
+/dev/sdd2       8390656    9439231    1048576   512M fd Linux raid autodetect
+/dev/sdd3       9439232 1875382959 1865943728 889.8G fd Linux raid autodetect
+
+
+Disk /dev/sda: 894.3 GiB, 960197124096 bytes, 1875385008 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+Disklabel type: dos
+Disk identifier: 0x8eb6ecdf
+
+Device     Boot   Start        End    Sectors   Size Id Type
+/dev/sda1          2048    8390655    8388608     4G fd Linux raid autodetect
+/dev/sda2       8390656    9439231    1048576   512M fd Linux raid autodetect
+/dev/sda3       9439232 1875382959 1865943728 889.8G fd Linux raid autodetect
+
+
+Disk /dev/md1: 511.4 MiB, 536281088 bytes, 1047424 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/md2: 889.6 GiB, 955228946432 bytes, 1865681536 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/md0: 4 GiB, 4290772992 bytes, 8380416 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
