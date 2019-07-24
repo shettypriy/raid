@@ -1,0 +1,27 @@
+mdadm --detail /dev/md2
+/dev/md2:
+        Version : 1.2
+  Creation Time : Wed Jul 24 15:03:24 2019
+     Raid Level : raid1
+     Array Size : 932840768 (889.63 GiB 955.23 GB)
+  Used Dev Size : 932840768 (889.63 GiB 955.23 GB)
+   Raid Devices : 2
+  Total Devices : 2
+    Persistence : Superblock is persistent
+
+  Intent Bitmap : Internal
+
+    Update Time : Wed Jul 24 20:10:47 2019
+          State : clean 
+ Active Devices : 2
+Working Devices : 2
+ Failed Devices : 0
+  Spare Devices : 0
+
+           Name : rescue:2
+           UUID : 55054941:e4f43136:4164aa27:183ece55
+         Events : 1062
+
+    Number   Major   Minor   RaidDevice State
+       1       8       19        0      active sync   /dev/sdb3
+       3       8       51        1      active sync   /dev/sdd3
